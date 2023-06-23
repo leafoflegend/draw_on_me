@@ -1,0 +1,29 @@
+{
+  "name": "2303_draw_on_me",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "start-server:dev": "node --watch server/server.js",
+    "start-client:dev": "vite dev",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "konva": "^9.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-konva": "^18.2.10"
+  },
+  "devDependencies": {
+    "chalk": "^5.2.0",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0",
+    "vite": "^4.3.9",
+    "ws": "^8.13.0"
+  }
+}
