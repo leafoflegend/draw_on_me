@@ -25,10 +25,6 @@ app.use(express.json());
 
 app.use(express.static(STATIC_DIR));
 
-app.get('/', (req, res, next) => {
-
-});
-
 app.post('/art', (req, res, next) => {
     let { color, points, thickness } = req.body;
 
