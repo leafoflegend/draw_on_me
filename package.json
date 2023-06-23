@@ -8,7 +8,8 @@
     "start": "node server/server.js",
     "start-server:dev": "node --watch server/server.js",
     "start-client:dev": "vite dev",
-    "build": "vite build"
+    "build": "vite build",
+    "serve": "ngrok http --domain=eliot.ngrok.dev 6969"
   },
   "keywords": [],
   "author": "",
