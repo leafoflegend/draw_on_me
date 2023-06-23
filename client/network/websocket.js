@@ -6,7 +6,8 @@ class Websocket {
     #connected = null;
 
     constructor() {
-        const websocketURL = `ws://localhost:6969/ws`;
+        // TODO: Move to detect environment.
+        const websocketURL = `wss://${window.location.host}/ws`;
 
         console.log(`Connecting to Websocket @ ${websocketURL}`);
 

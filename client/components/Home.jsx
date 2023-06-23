@@ -2,7 +2,7 @@ import React, {useEffect, useRef, useState} from 'react';
 import classes from './Home.module.css';
 import Canvas from './Canvas.jsx';
 import websocket from '../network/websocket.js';
-import getArt from './get_art.js';
+import getArt from '../network/get_art.js';
 
 const Home = () => {
     const [art, setArt] = useState([]);

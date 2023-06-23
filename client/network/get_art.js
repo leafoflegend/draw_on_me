@@ -1,6 +1,7 @@
 const getArt = async () => {
     try {
-        const response = await fetch('http://localhost:6969/art');
+        // TODO: Move to detect environment.
+        const response = await fetch(`https://${window.location.host}/art`);
         const json = await response.json();
 
         if (!json.success) {
